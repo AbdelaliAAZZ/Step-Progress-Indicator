@@ -1,0 +1,116 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+}
+
+
+.steps {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px 100px;
+  margin: 100px auto;
+}
+
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.numbers > div {
+  height: 50px;
+  width: 50px; 
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.numbers .active {
+  background-color: #6a00ff;
+  color: #fff;
+}
+
+
+.message {
+  text-align: center;
+  font-size: 22px;
+  margin: 40px 0;
+  font-weight: bold;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6a00ff, #9e57ff);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+  background: linear-gradient(135deg, #9e57ff, #6a00ff);
+  transform: translateY(-3px);
+}
+
+.buttons button:active {
+  transform: translateY(1px);
+}
+
+.buttons button span {
+  font-size: 16px;
+  line-height: 1;
+}
+
+
+
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #6a00ff;
+}
+
+
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #6a00ff;
+}
+
+.close:hover {
+  color: #9e57ff;
+}
