@@ -26,7 +26,7 @@ To start the 🪜 Steps App locally:
    ```
 
 ## 🌐 Live Demo
-Check out the live demo of the 🪜 Steps App [here](http://your-preview-link.com](https://step-progress-indicator.vercel.app/)).
+Check out the live demo of the 🪜 Steps App [here](https://step-progress-indicator-cdjv1ccfu-abdelaliaazzs-projects.vercel.app).
 
 ## 🛠️ Technologies Used
 - ⚛️ React
