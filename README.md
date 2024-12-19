@@ -25,13 +25,8 @@ To start the 🪜 Steps App locally:
    http://localhost:3000
    ```
 
-
-
-## 📸 Project Preview
-![🪜 Steps App Screenshot](path/to/screenshot.png)
-
 ## 🌐 Live Demo
-Check out the live demo of the 🪜 Steps App [here]([http://your-preview-link.com](https://step-progress-indicator.vercel.app/)).
+Check out the live demo of the 🪜 Steps App [here](http://your-preview-link.com](https://step-progress-indicator.vercel.app/)).
 
 ## 🛠️ Technologies Used
 - ⚛️ React
